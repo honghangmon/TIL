@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+C:\Users\wnsdl\OneDrive\바탕 화면\DB\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2229120187.index
+\back_db_ws_10_1\src\main\java
+C:\Users\wnsdl\OneDrive\바탕 화면\DB\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2508593656.index
+\Database_05_JDBC_Web\src\main\java
+C:\Users\wnsdl\OneDrive\바탕 화면\DB\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2525229451.index
+\Database_05_JDBC_Web\src\main\java
+C:\Users\wnsdl\OneDrive\바탕 화면\DB\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3611817791.index
+\back_db_ws_10_2\src\main\java

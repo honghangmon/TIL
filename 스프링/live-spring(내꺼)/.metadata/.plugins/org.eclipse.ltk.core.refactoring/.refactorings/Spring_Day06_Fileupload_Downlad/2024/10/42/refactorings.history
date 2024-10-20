@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.example.Fileupload_Downlad&apos; to &apos;com.ssafy.mvc&apos;&#x0D;&#x0A;- Original project: &apos;Spring_Day06_Fileupload_Downlad&apos;&#x0D;&#x0A;- Original element: &apos;Spring_Day06_Fileupload_Downlad/src/main/java/com.example.Fileupload_Downlad&apos;&#x0D;&#x0A;- Renamed element: &apos;Spring_Day06_Fileupload_Downlad/src/main/java/com.ssafy.mvc&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.example.Fileupload_Downlad&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.Fileupload_Downlad" name="com.ssafy.mvc" qualified="false" references="true" stamp="1729124915868" textual="false" version="1.0"/>
+</session>

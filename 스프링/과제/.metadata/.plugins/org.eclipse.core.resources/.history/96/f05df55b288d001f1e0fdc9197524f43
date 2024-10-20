@@ -1,0 +1,55 @@
+package com.ssafy.mvc.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.ssafy.mvc.model.Dto.User;
+import com.ssafy.mvc.model.service.UserService;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
+
+//빈으로 등록이 됐다? 
+@Controller
+public class UserController {
+		//서비스 의존성 주입 받아야 한다?
+//	@Autowired
+//	private final UserService userService;
+
+//	@Autowired
+//	public void setUserService(UserService userService) {
+//		this.userService = userService;
+//	}
+//	@Autowired
+//	public UserController(UserService userService) {
+//		this.userService = userService;
+//	}
+	//뭐가 포워딩?
+	@GetMapping("/login")
+	public String LoginForm() {
+		return "/user/loginForm";
+	}
+	
+//	@PostMapping("/login")
+//	public String login(@RequestParam("id") String id, @RequestParam("pw") String pw) {
+//		
+//		System.out.println(id);
+//		System.out.println(pw);
+//		
+////		return "hello";
+//		return "redirect:hello";
+//	}
+	
+	@PostMapping("/login")
+	public String login(@ModelAttribute User user, HttpServletRequest request) {
+		
+		HttpSession session = request.getSession();
+		
+		return "redirect:hello";
+	}
+	
+}

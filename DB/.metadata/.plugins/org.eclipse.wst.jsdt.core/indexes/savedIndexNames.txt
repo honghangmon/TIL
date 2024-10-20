@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+C:\Users\wnsdl\OneDrive\바탕 화면\DB\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1262670809.index
+2786705784.index
+938337527.index
+1428053650.index
+2848007955.index
+1102152647.index
+2227132569.index
+4279500412.index
+3635991165.index

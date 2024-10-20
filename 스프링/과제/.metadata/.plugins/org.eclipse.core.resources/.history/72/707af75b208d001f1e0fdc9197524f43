@@ -1,0 +1,11 @@
+package com.ssafy.mvc.controller;
+
+import org.springframework.stereotype.Controller;
+
+//빈으로 등록이 됐다? 
+@Controller
+public class UserController {
+		//서비스 의존성 주입 받아야 한다?
+	
+	private UserService userService
+}
