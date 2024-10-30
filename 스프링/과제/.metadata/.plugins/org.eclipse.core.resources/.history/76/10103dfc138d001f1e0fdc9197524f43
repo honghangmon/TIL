@@ -1,3 +1,0 @@
-spring.application.name=Spring_Day04_HelloBoot-1
-
-server.port = 8085;

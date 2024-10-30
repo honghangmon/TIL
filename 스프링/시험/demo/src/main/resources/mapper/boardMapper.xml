@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.mvc.model.dao.BoardDao">
+
+<select id="seletAll" resultType="Board">
+	SELET id, content, writer, title, reg_date AS regDate, view_cnt AS viewCnt FROM Board;
+</select>
+
+<select id="seletOne" resultType="Board" parameterType="int">
+	SELET * FROM Board WHERE id = #{id};
+</select>
+
+<insert id="insertBoard" parameterType="Board" keyProperty="id" useGeneratedKeys="true">
+
+</insert>
+
+<update id="updateViewCnt" parameterType="Board">
+	UPDATE board
+	SET view_cnt = view_cnt + 1
+	WHERE id = #{id};
+</update>
